@@ -5,7 +5,7 @@
 // ИЗМЕНЕНИЕ: Добавлена константа для порога уровня
 const XP_PER_LEVEL = 200;
 
-const newUserWelcomeMessage = { sender: 'ai', text: 'Здравствуйте! Заполните свой профиль, чтобы я мог дать более точные рекомендации по развитию вашей карьеры.' };
+const newUserWelcomeMessage = { sender: 'ai', text: 'Здравствуйте! Готова ответить на Ваши вопросы.' };
 const generalEmployeeWelcomeMessage = { sender: 'ai', text: 'Здравствуйте! Готова ответить на Ваши вопросы.' };
 
 const newEmployeeTemplate = { name: 'Новый пользователь', role: 'Должность не указана', avatar: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=1961&auto-format=fit=crop', interests: { backend: 0, frontend: 0, dataScience: 0, devops: 0, mobileDev: 0, qa: 0 }, skills: [], achievements: { xp: 0, badges: 0, rating: 999, hasUploadedAvatar: false, hasAddedFirstSkill: false, hasAddedFirstCareerPath: false }, careerPath: [], applications: [], chatHistory: [newUserWelcomeMessage] };
